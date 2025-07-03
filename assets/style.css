@@ -2,6 +2,19 @@ body {
 background-color:beige;
 font-family: Bai Jamjuree;
 }
+<<<<<<< HEAD
+.cartao {
+margin: 1rem 1rem;
+background-color: aqua;
+height: 20rem;
+flex-grow: 1;
+flex-basis: calc(33% -6rem);
+}
+
+.cartao__conteudo {
+text-align: center;
+height: 100%;
+}
 
 
 
@@ -12,9 +25,14 @@ bottom:0;
 #container 
 display:flex ;
 }
+<<<<<<< HEAD
+}
+=======
 
 
+>>>>>>> 2373c3a6a3a387c9e19e9fd28ac128c983cd4f6a
 footer p{
 text-align: center;
 font-size: 0.6rem;
 }
+
