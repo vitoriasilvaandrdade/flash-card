@@ -23,17 +23,23 @@ href=" https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,3
                     <div class="cartao__conteudo__pergunta">
                         O que é Java Script?
                     </div>
-                    <div class="cartao__conteudo__resposta">
+                    <div class="cartao__co</html><script src="app.js"></script>
+    <script src="perguntas.js"></script>nteudo__resposta">
                         O Java Script é uma linguagem de programação.
                     </div>
                 </div>
             </article>
             <article class="cartao">
-                <div class="cartao__conteudo">
+           v class="cartao__conteudo__resposta">
+                        O Java Script é uma linguagem de programação.
+                    </div></html><script src="app.js"></script>
+    <script src="perguntas.js"></script>
+                </div>     <div class="cartao__conteudo">
                     <h3> Programação </h3>
                     <div class="cartao__conteudo__pergunta">
                         O que é Java Script?
-                    </div>
+                    </div></html><script src="app.js"></script>
+    <script src="perguntas.js"></script>
                     <div class="cartao__conteudo__resposta">
                         O CSS é uma linguagem de estilização.
                     </div>
@@ -47,7 +53,8 @@ href=" https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,3
                     </div>
                     <div class="cartao__conteudo__resposta">
                         O Java Script é uma linguagem de programação.
-                    </div>
+                    </div></html><script src="app.js"></script>
+    <script src="perguntas.js"></script>
                 </div>
             </article-->
 
@@ -56,39 +63,10 @@ href=" https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,3
     <footer>
         <p>Projeto desenvolvido pela aluna Vitoria </p>
     </footer>
+    <script src="app.js"></script>
+    <script src="perguntas.js"></script>
 </body>
 
 
 
-function criaCartao(categoria, pergunta, resposta) {
-    let container = document.getElementById('container')
-    let cartao = document.createElement('article')
-    cartao.className = 'cartao'
-
-    cartao.innerHTML = `
-    <div class="cartao__conteudo">
-    <h3>${categoria}</h3>
-    <div class="cartao__conteudo__pergunta">
-        <p>${pergunta}</p>
-    </div>
-    <div class="cartao__conteudo__resposta">
-        <p>${resposta}</p>
-    </div>
-    </div>
-    `
-
-    let respostaEstaVisivel = false
-
-    function viraCartao() {
-        respostaEstaVisivel = !respostaEstaVisivel
-        cartao.classList.toggle('active', respostaEstaVisivel)
-    }
-    cartao.addEventListener('click', viraCartao)
-
-
-    container.appendChild(cartao)
-
-}
-
-</html><script src="app.js"></script>
-    <script src="perguntas.js"></script>
+</html>
