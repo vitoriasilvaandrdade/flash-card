@@ -1,12 +1,12 @@
 criaCartao(
     'Animais',
     'O que é mamifero´?',
-    ''
+    'Mamíferos são animais vertebrados que se caracterizam por possuírem pelos e glândulas mamárias que produzem leite para alimentar suas crias. '
 )
 
 criaCartao(
-    'Geografia',
-    'Qual a capital da França?',
+    'anfibios',
+    '?',
     'A capital da França é Paris'
 )
 
