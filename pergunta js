@@ -1,23 +1,23 @@
 criaCartao(
     'Animais',
-    'O que é mamifero´?',
+    'O que é mamifero?',
     'Mamíferos são animais vertebrados que se caracterizam por possuírem pelos e glândulas mamárias que produzem leite para alimentar suas crias. '
 )
 
 criaCartao(
     'anfibios',
-    '?',
-    'A capital da França é Paris'
+    ' o que sao anfibios?',
+    'Os anfíbios são animais vertebrados que pertencem à classe Amphibia e possuem a característica de viver em dois ambientes: água e terra. '
 )
 
 criaCartao(
-    'Programação',
-    'O que é uma função?',
-    'Uma função é um bloco de código que executa alguma tarefa'
+    'moluscos',
+    'O que sao moluscos?',
+    'Moluscos são animais invertebrados pertencentes ao filo Mollusca, caracterizados por possuírem corpo mole, que pode ou não ser protegido por uma concha. '
 )
 
 criaCartao(
-    'Programação',
-    'O que é uma função?',
-    'Uma função é um bloco de código que executa alguma tarefa'
+    ' artropodes',
+    'O que sao artropodes?',
+    'Artrópodes são animais invertebrados com corpo segmentado, exoesqueleto e apêndices articulados. Exemplos incluem insetos (como abelhas, formigas, borboletas),'
 )
